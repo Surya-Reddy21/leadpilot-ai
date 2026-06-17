@@ -1,0 +1,53 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json    # optional – some teams commit it; remove if you prefer to track it
+yarn.lock            # optional – same as above
+
+# Environment variables
+.env
+.env.*
+!.env.example       # allow example env files to be tracked
+
+# Build / distribution outputs
+dist/
+build/
+out/
+lib/
+*.tsbuildinfo
+
+# Testing / coverage
+coverage/
+.nyc_output/
+.cache/
+
+# Logs
+logs/
+*.log
+
+# OS metadata
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDE / editor files
+.vscode/
+.idea/
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Temporary files
+tmp/
+temp/
+
+# Misc
+*.pid
+*.seed
+*.pid.lock
